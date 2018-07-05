@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Custom suite" verbose="1" thread-count="1" parallel="tests" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="com.sample.utility.TestNgExecutionListener"></listener>
+    </listeners>
+    <test name="API Test Suite">
+        <classes>
+            <class name="com.sample.tests.FeatureTestNgTest"></class>
+            <!--<class name="com.sample.tests.AppTest"></class>-->
+        </classes>
+    </test>
+</suite>

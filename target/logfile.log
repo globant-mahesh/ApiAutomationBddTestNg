@@ -1,0 +1,207 @@
+DEBUG 2018-07-24 16:12:42,145 [TestNG-tests-1] (com.sample.stepdefinition.BookStepDefinitions:31) - Starting at step 1
+DEBUG 2018-07-24 16:12:43,534 [TestNG-tests-1] (org.apache.http.impl.conn.BasicClientConnectionManager:161) - Get connection for route {s}->https://www.googleapis.com:443
+DEBUG 2018-07-24 16:12:43,564 [TestNG-tests-1] (org.apache.http.impl.conn.DefaultClientConnectionOperator:177) - Connecting to www.googleapis.com:443
+DEBUG 2018-07-24 16:12:44,112 [TestNG-tests-1] (org.apache.http.client.protocol.RequestAddCookies:123) - CookieSpec selected: ignoreCookies
+DEBUG 2018-07-24 16:12:44,120 [TestNG-tests-1] (org.apache.http.client.protocol.RequestAuthCache:77) - Auth cache not set in the context
+DEBUG 2018-07-24 16:12:44,122 [TestNG-tests-1] (org.apache.http.client.protocol.RequestTargetAuthentication:80) - Target auth state: UNCHALLENGED
+DEBUG 2018-07-24 16:12:44,126 [TestNG-tests-1] (org.apache.http.client.protocol.RequestProxyAuthentication:89) - Proxy auth state: UNCHALLENGED
+DEBUG 2018-07-24 16:12:44,129 [TestNG-tests-1] (org.apache.http.impl.client.DefaultHttpClient:682) - Attempt 1 to execute request
+DEBUG 2018-07-24 16:12:44,131 [TestNG-tests-1] (org.apache.http.impl.conn.DefaultClientConnection:274) - Sending request: GET /books/v1/volumes?q=isbn%3A9781451648546 HTTP/1.1
+DEBUG 2018-07-24 16:12:44,134 [TestNG-tests-1] (org.apache.http.wire:73) -  >> "GET /books/v1/volumes?q=isbn%3A9781451648546 HTTP/1.1[\r][\n]"
+DEBUG 2018-07-24 16:12:44,138 [TestNG-tests-1] (org.apache.http.wire:73) -  >> "Accept: */*[\r][\n]"
+DEBUG 2018-07-24 16:12:44,139 [TestNG-tests-1] (org.apache.http.wire:73) -  >> "Host: www.googleapis.com[\r][\n]"
+DEBUG 2018-07-24 16:12:44,141 [TestNG-tests-1] (org.apache.http.wire:73) -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG 2018-07-24 16:12:44,143 [TestNG-tests-1] (org.apache.http.wire:73) -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)[\r][\n]"
+DEBUG 2018-07-24 16:12:44,144 [TestNG-tests-1] (org.apache.http.wire:73) -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG 2018-07-24 16:12:44,146 [TestNG-tests-1] (org.apache.http.wire:73) -  >> "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,147 [TestNG-tests-1] (org.apache.http.headers:278) - >> GET /books/v1/volumes?q=isbn%3A9781451648546 HTTP/1.1
+DEBUG 2018-07-24 16:12:44,149 [TestNG-tests-1] (org.apache.http.headers:281) - >> Accept: */*
+DEBUG 2018-07-24 16:12:44,150 [TestNG-tests-1] (org.apache.http.headers:281) - >> Host: www.googleapis.com
+DEBUG 2018-07-24 16:12:44,151 [TestNG-tests-1] (org.apache.http.headers:281) - >> Connection: Keep-Alive
+DEBUG 2018-07-24 16:12:44,152 [TestNG-tests-1] (org.apache.http.headers:281) - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)
+DEBUG 2018-07-24 16:12:44,154 [TestNG-tests-1] (org.apache.http.headers:281) - >> Accept-Encoding: gzip,deflate
+DEBUG 2018-07-24 16:12:44,567 [TestNG-tests-1] (org.apache.http.wire:73) -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG 2018-07-24 16:12:44,574 [TestNG-tests-1] (org.apache.http.wire:73) -  << "Expires: Tue, 24 Jul 2018 10:42:44 GMT[\r][\n]"
+DEBUG 2018-07-24 16:12:44,576 [TestNG-tests-1] (org.apache.http.wire:73) -  << "Date: Tue, 24 Jul 2018 10:42:44 GMT[\r][\n]"
+DEBUG 2018-07-24 16:12:44,579 [TestNG-tests-1] (org.apache.http.wire:73) -  << "Cache-Control: private, max-age=0, must-revalidate, no-transform[\r][\n]"
+DEBUG 2018-07-24 16:12:44,582 [TestNG-tests-1] (org.apache.http.wire:73) -  << "ETag: "IUREzboS_XZycecz4xfru1ipYfo/2hiXy_0PAuSXF460C5o-uFpxXT8"[\r][\n]"
+DEBUG 2018-07-24 16:12:44,585 [TestNG-tests-1] (org.apache.http.wire:73) -  << "Vary: Origin[\r][\n]"
+DEBUG 2018-07-24 16:12:44,587 [TestNG-tests-1] (org.apache.http.wire:73) -  << "Vary: X-Origin[\r][\n]"
+DEBUG 2018-07-24 16:12:44,590 [TestNG-tests-1] (org.apache.http.wire:73) -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+DEBUG 2018-07-24 16:12:44,592 [TestNG-tests-1] (org.apache.http.wire:73) -  << "Content-Encoding: gzip[\r][\n]"
+DEBUG 2018-07-24 16:12:44,594 [TestNG-tests-1] (org.apache.http.wire:73) -  << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG 2018-07-24 16:12:44,596 [TestNG-tests-1] (org.apache.http.wire:73) -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+DEBUG 2018-07-24 16:12:44,598 [TestNG-tests-1] (org.apache.http.wire:73) -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG 2018-07-24 16:12:44,600 [TestNG-tests-1] (org.apache.http.wire:73) -  << "Server: GSE[\r][\n]"
+DEBUG 2018-07-24 16:12:44,603 [TestNG-tests-1] (org.apache.http.wire:73) -  << "Alt-Svc: quic=":443"; ma=2592000; v="44,43,39,35"[\r][\n]"
+DEBUG 2018-07-24 16:12:44,605 [TestNG-tests-1] (org.apache.http.wire:73) -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG 2018-07-24 16:12:44,608 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,614 [TestNG-tests-1] (org.apache.http.impl.conn.DefaultClientConnection:259) - Receiving response: HTTP/1.1 200 OK
+DEBUG 2018-07-24 16:12:44,616 [TestNG-tests-1] (org.apache.http.headers:262) - << HTTP/1.1 200 OK
+DEBUG 2018-07-24 16:12:44,618 [TestNG-tests-1] (org.apache.http.headers:265) - << Expires: Tue, 24 Jul 2018 10:42:44 GMT
+DEBUG 2018-07-24 16:12:44,620 [TestNG-tests-1] (org.apache.http.headers:265) - << Date: Tue, 24 Jul 2018 10:42:44 GMT
+DEBUG 2018-07-24 16:12:44,626 [TestNG-tests-1] (org.apache.http.headers:265) - << Cache-Control: private, max-age=0, must-revalidate, no-transform
+DEBUG 2018-07-24 16:12:44,628 [TestNG-tests-1] (org.apache.http.headers:265) - << ETag: "IUREzboS_XZycecz4xfru1ipYfo/2hiXy_0PAuSXF460C5o-uFpxXT8"
+DEBUG 2018-07-24 16:12:44,631 [TestNG-tests-1] (org.apache.http.headers:265) - << Vary: Origin
+DEBUG 2018-07-24 16:12:44,634 [TestNG-tests-1] (org.apache.http.headers:265) - << Vary: X-Origin
+DEBUG 2018-07-24 16:12:44,636 [TestNG-tests-1] (org.apache.http.headers:265) - << Content-Type: application/json; charset=UTF-8
+DEBUG 2018-07-24 16:12:44,639 [TestNG-tests-1] (org.apache.http.headers:265) - << Content-Encoding: gzip
+DEBUG 2018-07-24 16:12:44,642 [TestNG-tests-1] (org.apache.http.headers:265) - << X-Content-Type-Options: nosniff
+DEBUG 2018-07-24 16:12:44,644 [TestNG-tests-1] (org.apache.http.headers:265) - << X-Frame-Options: SAMEORIGIN
+DEBUG 2018-07-24 16:12:44,647 [TestNG-tests-1] (org.apache.http.headers:265) - << X-XSS-Protection: 1; mode=block
+DEBUG 2018-07-24 16:12:44,650 [TestNG-tests-1] (org.apache.http.headers:265) - << Server: GSE
+DEBUG 2018-07-24 16:12:44,652 [TestNG-tests-1] (org.apache.http.headers:265) - << Alt-Svc: quic=":443"; ma=2592000; v="44,43,39,35"
+DEBUG 2018-07-24 16:12:44,655 [TestNG-tests-1] (org.apache.http.headers:265) - << Transfer-Encoding: chunked
+DEBUG 2018-07-24 16:12:44,683 [TestNG-tests-1] (org.apache.http.impl.client.DefaultHttpClient:509) - Connection can be kept alive indefinitely
+DEBUG 2018-07-24 16:12:44,717 [TestNG-tests-1] (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder:544) - Parsing response as: application/json; charset=UTF-8
+DEBUG 2018-07-24 16:12:44,721 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,722 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0x1f]"
+DEBUG 2018-07-24 16:12:44,723 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,724 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,725 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0x8b]"
+DEBUG 2018-07-24 16:12:44,726 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,727 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,728 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0x8]"
+DEBUG 2018-07-24 16:12:44,728 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,729 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,730 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0x0]"
+DEBUG 2018-07-24 16:12:44,731 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,732 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,732 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0x0]"
+DEBUG 2018-07-24 16:12:44,733 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,734 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,745 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0x0]"
+DEBUG 2018-07-24 16:12:44,746 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,746 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,747 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0x0]"
+DEBUG 2018-07-24 16:12:44,748 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,748 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,749 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0x0]"
+DEBUG 2018-07-24 16:12:44,749 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,750 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,750 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0x0]"
+DEBUG 2018-07-24 16:12:44,750 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,751 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,751 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0x0]"
+DEBUG 2018-07-24 16:12:44,751 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,752 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,752 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0xe5]"
+DEBUG 2018-07-24 16:12:44,752 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,753 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,753 [TestNG-tests-1] (org.apache.http.wire:87) -  << "V"
+DEBUG 2018-07-24 16:12:44,754 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,755 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,755 [TestNG-tests-1] (org.apache.http.wire:87) -  << "m"
+DEBUG 2018-07-24 16:12:44,755 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,755 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,756 [TestNG-tests-1] (org.apache.http.wire:87) -  << "o"
+DEBUG 2018-07-24 16:12:44,756 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,757 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,757 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0xdb]"
+DEBUG 2018-07-24 16:12:44,757 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,758 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,758 [TestNG-tests-1] (org.apache.http.wire:87) -  << "6"
+DEBUG 2018-07-24 16:12:44,758 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,759 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,759 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0x10]"
+DEBUG 2018-07-24 16:12:44,759 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,760 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,760 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0xfe]"
+DEBUG 2018-07-24 16:12:44,761 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,761 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,761 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0xee]"
+DEBUG 2018-07-24 16:12:44,762 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,762 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00000001[\r][\n]"
+DEBUG 2018-07-24 16:12:44,762 [TestNG-tests-1] (org.apache.http.wire:87) -  << "_"
+DEBUG 2018-07-24 16:12:44,763 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,763 [TestNG-tests-1] (org.apache.http.wire:73) -  << "00003ed[\r][\n]"
+DEBUG 2018-07-24 16:12:44,763 [TestNG-tests-1] (org.apache.http.wire:73) -  << "Ah[0x80][0xbf],[0xf3]K[0xde][0x96][0x6]0[\n]"
+DEBUG 2018-07-24 16:12:44,764 [TestNG-tests-1] (org.apache.http.wire:73) -  << "9I[0x7]wN[0x9c][0xd9]n[0xba]a([0xc][0x8a]:ID(R%){^[0x91][0xff][0xbe]#%[0xb9][0x8a][0xe3][0xc][0xdd][0x80]}[0x9a][\r][0xc3][0x16][0xef]x[0xf7][0xf0][0xee][0xb9][0x87][0xfe][0xd2]![0xc1]#[0x97]qpI[0x82]H[0xa9]G[0xf3][0xdd]Z[0x89]2[0x7][0x13][0x1c][0xa1][0xc5]*K[0xc5][0xc4]Bn[0xd0]>t+[0xbc]~[0xf8][0xbd]C[0xc8][0x17][0xfc][0x1c][0xde][0xed]6[0xa3][0x89]{[0xc3][0xc5][0x87]c[0x15][0xe2][0xeb][0x97]q[0xf8][0xbe]6[0x80][0xa5][0xa9]3[0xdd][0xd0][0xe3]w[0xfd][0xf5]O[0xbf][0xde]}?[0xa8]-[0x6]D2[0xe5][0xf2][0xd1]Y3k[0xb]s[0xd9][0xef]o6[0x9b]^[0xaa]T*[0x80][0x16][0xdc][0xf4][0x98][0xca][0xfb]>Y=[0xec][0xd7]h[0xfb][0x7][0x92]T[0xa6][0x89]L[0x14][0x6][0xf3]X[0xf1]@[0xdc][\n]"
+DEBUG 2018-07-24 16:12:44,764 [TestNG-tests-1] (org.apache.http.wire:73) -  << "p[0xb1][0x17][0x16][0xd6]@[0xde][0xab][0xc8]T[0xde]$[0xa0][0xa5][0xcd][0x94]n[0xce][0xe6]V>RaA[0x93][0x89][0xa1][0x94][0x19]%[0x3][0xbf][0xfc][0xa9]v/[0xca]Hp[0x93][0x81][0xf6][0xd1]x[0xae]$[0xa1]2&[0xb][0x96][0x95][0x6]w[0x5]{n[0xf1]5[0xb5]>[0xf1][0xf1]`8l[0x8c]1[0x18][0xa6]ya9[0x6]G[0xd3][0xb5][0xa6][0x1b]C0P[0xae]4[0x10][0x9b]QI[0x12][0xa5][0xed][0x96]p[0x89][0x11][0xd7][0x1c][0xd0][0xba][0xe1]6#_[0xc1][0x1f][0x11][0x8a]k [0x84][0xfb][0xde]wKh[0xce][0xc5][0x96][0xe4][0x90]G[0xa0][0xd1]5[0xd1][0x1c]d[0x8c]?[0xb0][0x82][0x5]`)[0x94][u[0xa8][0x99][0x12]X[0xdc][0xb4][0x4]C[0xac]"*I[0xf0][0xd8][0x94][0x8],2[0xa1][0x16][0x91][0x0]z[0xfc][0x90][0xa8]R[0xc6][0xce][0x80][0x1b][0xd0];[0xe6]2%L[0x3][0xb5][0x1c][0xc1] P[0x6]$[0x82][0xc][0xd9][0xe0]7[0x84]E![0xc0]g*][0x11][0xdd][0xf]*[0xb7][0xbd][0xe6][0xe8][0xe8][0x86]u[0xd2][0xdb]I[0xc][0xd2][0xf2][0x84]C[0xbb][0xf2]U[0xb3]\[0xbb][0xb6][0x85]/[0xda]d1[0xbe][[\r]O[0xea][0xcd][0x9e]Y[0xcd]6g~[0xf3][0xe3][0xc5][0xf0][0xf4]lx~zqvz^[0xb5][0x89]<[0x1d][0xfd]m[0xac][0xc1]k[0xb1]v[0x81][0xce][0x9a]@[0xcf][0xda][0xae][0xab][0x83][0xdf]*[0xec][0xdd][0x8e]V[0x18][0x1c][0xfe][0xb0][0xf8][0x98]Pa[0xa0][0xe][0x1c][0xf0][0x9c][0xa6][0xd0],vZ[0x98][0x82][0x2][\r]WXM[0xb7][0xe5][0xfc]d[0xd0][0xac]jl[0xe0][0xb2]F9[0x9e][0xcd]~nj[0xc5][0x90]:[0xa9][0xc2][0xe6][0xb5][0xc9]9[0xe6]*[0xd5][0xb4][0xc8][0xb6][0xa4]K[0xc2][0xd2][0xaa][0xa8]y~NS[0xba][0x6][0x8d][0xd9][0xe6][0xd8]%[0xe9]F[0xee][0xb4][0xd7][0xa4][0xd3]~[0xc9]48N[0xde][0xc][0xce]kKNm[0xa9][0xb9][0xdd][0xee]6[0x5]w[0xb3][0xe5][0xea]6\~[0x98][0xdf][0xec][0xa6]E[0x8][0xb5][0x9][0xa5][0x92]S[0x95][0xa6][0x95]W[0xeb][0xf0][0x1]S[0xc8]Ei[0x1f][0xb0][0xad]5[0xb9][0x7][0xbd][0x93][0xde][0x0][0xdf][0x85][0x6]G[0xd1][0xde]`[0xc7][0x4]W&7[0xf2][0xed]z[0x9a][0x1c][0x13],[0xb3]2[0x8f]$[0xe5][0xa2][0x11][0x3][0xd4][0x2]?[0xf8][0xb5][0x1a][0xb4][0x94][0xa0][0xce][0xf7][0x96][0xc7][0xa3][0xb6][0x12]t}M[\r][0xb0]Q[0xa2][0xd1][0x83])[0xac]F[0x97][0xe7][0xe9]h[0xd8][0xfd]S[0xa9]|t[0xd6][0x85]8[0x85][0x11]+[0xb5][0xe8][0x1a]U"[0x85]GidV(3[\r]=[0x2][0xfb][0x9f][0x83][0x18][0xbe][0xe][0xe2][0x19]k[0x4][0x95]iYQ*[0x0][0xb9][0x13][0x98][0xaa][0x9e]m[0xcd]|[0x89][0xb0][0xc7]e[0xb5][0xf4]M[0xd8][0xe2][0xcf]#n"y[0xf9]l[0xac][0xba][0x99][0x18]uY[0x8c]h[0xf][0x16][\n]"
+DEBUG 2018-07-24 16:12:44,765 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[0x7]:Q[0xff][0x16][0xc4][0xeb][0x9][0xf][0xe7]b[0x14][0x89][0xc7][0x19][0x15][0xf]^[0xe2][0xf7][0xef][0x8b]W[0xda]C#U[0xda][0xbe][0xd7][0xce][0x95][0xd3][0xce]^fs[0xf1][0xd6]e[0xd9][0xc3][0xe3][0xcb][0xfe]T[0xdf]GT[0xec]]![0xcc][\r][0x8c][0xde]z)[0xb9]k[0x10]97[0x1a]q[0x81]S[0xd3][0xcc][0xcb][0xbb][0xd9]|[0xb5][0x8][0xa7][0xbb][0x89][0xe1][0xe6][0xc6][0xe1]h[0xb]B[0x9d][0x83]2[0x6][0xc6]|C[0x16][0xd7][0xe8]V[0x96][0xfb]p[0xbe][0x9c][0x84][0xd3][0xc6][0xea]d>[0x8e]i[0xe4]/8[0xab]Kh_A[0xec]Z[0xe5][0x94][0xcb][0xbd]1u[0xb2][0xb5]T[0x8b][0x2][0x80]e[0xf7][0xa0]sn[0x9a]q[\r][0xa7][0xd3][0xd9][0xc7][0x9b]k[0x8a][0xf0][0xea][0xea]f[0xb1][0x98][0x8c]'[0xd3][0xc9][0xf2][0xb7]]6[0xc][0xdb][0x1a]Xn[0xc2]5[0xe]I[0x9d][0xfd][0x80][0xe4][0xc5][0xc9]?[0xf0][0xde]@4G[0xa1][0x5][0xbd][0xc7][0xa8]B[0xd0][0xed][0xcb][0xc6]j[0xef][0xfa][0x82]U[0xae][0xb3][0x87][0xe8]}[0x98]SU[0x13][0x1e][0xb0][0xc2][0xb][0x8b][0xfa]g[0xfc][0xb5][0x1e][0xde][0xde]m[0xe0][0xe7]RYXd[0x14]C[0xa6][0xa1][0x93]?[0x88][0xf]4[0xd3][0x0][0xd5],[0xdb][0xfb][0xd7][0x81]e^H^[0xe0][0xa5][0xfb][0xbf][0xb9][0xe7];[0xf5][0xd5][0x89][0x9f]O[0x9d][0xa7][0xce]_kR[0xfe][0x9c]h[\n]"
+DEBUG 2018-07-24 16:12:44,765 [TestNG-tests-1] (org.apache.http.wire:87) -  << "[0x0][0x0]"
+DEBUG 2018-07-24 16:12:44,766 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,766 [TestNG-tests-1] (org.apache.http.wire:73) -  << "0[\r][\n]"
+DEBUG 2018-07-24 16:12:44,766 [TestNG-tests-1] (org.apache.http.wire:73) -  << "[\r][\n]"
+DEBUG 2018-07-24 16:12:44,769 [TestNG-tests-1] (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder:547) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+DEBUG 2018-07-24 16:12:44,821 [TestNG-tests-1] (org.apache.http.impl.conn.BasicClientConnectionManager:200) - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@139f5231
+DEBUG 2018-07-24 16:12:44,822 [TestNG-tests-1] (org.apache.http.impl.conn.BasicClientConnectionManager:225) - Connection can be kept alive indefinitely
+ INFO 2018-07-24 16:12:44,874 [TestNG-tests-1] (com.sample.stepdefinition.BookStepDefinitions:38) - response: {
+    "kind": "books#volumes",
+    "totalItems": 1,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "8U2oAAAAQBAJ",
+            "etag": "Ea2F/vGXN+0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/8U2oAAAAQBAJ",
+            "volumeInfo": {
+                "title": "Steve Jobs",
+                "authors": [
+                    "Walter Isaacson"
+                ],
+                "publisher": "Simon and Schuster",
+                "publishedDate": "2011",
+                "description": "Draws on more than forty interviews with Steve Jobs, as well as interviews with family members, friends, competitors, and colleagues to offer a look at the co-founder and leading creative force behind the Apple computer company.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781451648546"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1451648545"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 630,
+                "printType": "BOOK",
+                "categories": [
+                    "Biography & Autobiography"
+                ],
+                "averageRating": 4.0,
+                "ratingsCount": 3906,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.0.0.preview.0",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=8U2oAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=8U2oAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.co.in/books?id=8U2oAAAAQBAJ&printsec=frontcover&dq=isbn:9781451648546&hl=&cd=1&source=gbs_api",
+                "infoLink": "http://books.google.co.in/books?id=8U2oAAAAQBAJ&dq=isbn:9781451648546&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Steve_Jobs.html?hl=&id=8U2oAAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "IN",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "IN",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=8U2oAAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Draws on more than forty interviews with Steve Jobs, as well as interviews with family members, friends, competitors, and colleagues to offer a look at the co-founder and leading creative force behind the Apple computer company."
+            }
+        }
+    ]
+}
+ INFO 2018-07-24 16:12:45,549 [main] (com.sample.utility.TestNgExecutionListener:20) - Generating the Masterthought Report
+ INFO 2018-07-24 16:12:46,865 [main] (com.sample.utility.TestNgExecutionListener:22) - TestNG has finished, the execution
